@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Pedro Gomes - Frontend Developer Portfolio. Discover my projects, skills, and experience in web development, React, JavaScript, and more. Available for freelance work.">
+    <meta name="keywords" content="Pedro Gomes, Frontend Developer, Portfolio, JavaScript, React, Next.js, TypeScript, TailwindCSS, Web Development, Freelance, France">
+    <meta name="author" content="Pedro Gomes">
+    <meta property="og:title" content="Pedro - Portfolio">
+    <meta property="og:description" content="Explore Pedro Gomes' portfolio: web projects, skills, and contact info. Available for freelance work.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pedrogomes.fr/">
+    <meta property="og:image" content="pedroImg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pedro - Portfolio">
+    <meta name="twitter:description" content="Frontend Developer Portfolio - Pedro Gomes. Discover projects, skills, and contact info.">
+    <meta name="twitter:image" content="pedroImg.jpg">
+    <link rel="canonical" href="https://pedrogomes.fr/">
+</head>
+<body>
+    <!-- Background Particles -->
+    <div class="bg-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Pedro</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#skills" class="nav-link">Compétences</a></li>
+                    <li><a href="#projects" class="nav-link">Projets</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <div class="profile-main">
+                            <div class="profile-image-large">
+                                <img src="img/pedroImg.jpg" alt="Pedro" />
+                            </div>
+                            <div class="profile-header">
+                                <h1 class="profile-name">Pedro Gomes</h1>
+                                <div class="profile-status">
+                                    <span class="red-status-dot"></span>
+                                    <span>Pas en recherche de travail</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-bio">
+                            <p>
+                                Transformer les idées en code avec passion 🔧 | Toujours prêt pour la 
+                                prochaine grande aventure ✨
+                            </p>
+                        </div>
+                        
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>France</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-globe"></i>
+                                <a href="#">pedrogomes.fr</a>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links-main">
+                            <a href="https://github.com/PedroGomesFR" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/pedro-gomes-33200821b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-right">
+                        <div class="code-block glow-effect">
+                            <div class="code-header">
+                                <div class="code-controls">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="code-title">coder.js</span>
+                            </div>
+                            <div class="code-content">
+                                <div class="line-numbers">
+                                    <span>1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                    <span>4</span>
+                                    <span>5</span>
+                                    <span>6</span>
+                                    <span>7</span>
+                                    <span>8</span>
+                                    <span>9</span>
+                                    <span>10</span>
+                                    <span>11</span>
+                                    <span>12</span>
+                                    <span>13</span>
+                                </div>
+                                <div class="code-text">
+                                    <span class="keyword">const</span> <span class="variable">coder</span> <span class="operator">=</span> <span class="bracket">{</span><br>
+                                    &nbsp;&nbsp;<span class="property">name</span><span class="operator">:</span> <span class="string">'Pedro'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;<span class="property">role</span><span class="operator">:</span> <span class="string">'Développeur Fullstack'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;<span class="property">seniority</span><span class="operator">:</span> <span class="string">'Niveau Debutant'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;<span class="property">location</span><span class="operator">:</span> <span class="string">'France'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;<span class="property">skills</span><span class="operator">:</span> <span class="bracket">[</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'HTML'</span><span class="operator">,</span> <span class="string">'CSS'</span><span class="operator">,</span> <span class="string">'JavaScript'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'PHP'</span><span class="operator">,</span> <span class="string">'Symfony'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'Flutter'</span><span class="operator">,</span> <span class="string">'Github'</span><span class="operator">,</span> <span class="string">'Bootstrap'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'MySQL'</span><span class="operator">,</span> <span class="string">'MariaDB'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">'Windows'</span><span class="operator">,</span> <span class="string">'Linux'</span><span class="operator">,</span><br>
+                                    &nbsp;&nbsp;<span class="bracket">]</span><span class="operator">,</span><br>
+                                    <span class="bracket">}</span><span class="operator">;</span>
+                                </div>
+                            </div>
+                            <div class="code-footer">
+                                <span class="code-info">UTF-8</span>
+                                <span class="code-info">JavaScript</span>
+                                <span class="code-info">Ln 14, Col 2</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>À propos de moi</h2>
+                    <p>Découvrez mon parcours et ma passion pour le développement</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Je suis un développeur fullstack passionné qui aime créer des expériences web belles, fonctionnelles et conviviales. 
+                        </p>
+                        <p>
+                            Mon voyage dans le développement web a commencé en 2019, lorsque j'ai découvert HTML et CSS en classe de seconde au lycée. Depuis, j'ai toujours eu cette passion de voir mes projets évoluer progressivement et de constamment m'améliorer dans cet univers en perpétuelle innovation.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-code"></i>
+                                <h4>Code Propre</h4>
+                                <p>Écriture de code maintenable et évolutif</p>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Design Responsive</h4>
+                                <p>Approche mobile-first pour le développement</p>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-rocket"></i>
+                                <h4>Performance</h4>
+                                <p>Optimisé pour la vitesse et l'efficacité</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="skills-grid-main">
+                    <div class="skill-item">
+                        <i class="fab fa-html5" style="color: #e34f26;"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-github" style="color: #333;"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-php" style="color: #61dafb;"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-symfony" style="color: #000;"></i>
+                        <span>Symfony</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-bootstrap" style="color: #61dafb;"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-flutter" style="color: #02569b;"></i>
+                        <span>Flutter</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-fire" style="color: #ffca28;"></i>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-solid fa-database" style="color: #61dafb;"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-solid fa-database" style="color: #61dafb;"></i>
+                        <span>MariaDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Projets Sélectionnés</h2>
+                    <p>Une vitrine de mes projets récents et réalisations</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/CasqueConn.png" alt="Sera Programmer" />
+                        </div>
+                        <div class="project-content">
+                            <h3>Casque de Chantier Connectée</h3>
+                            <p>
+                                👷Concevoir un casque de chantier équipé de capteurs pour renforcer la sécurité des ouvriers sur les chantiers, 
+                                avec remontée des données vers un site de monitoring.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="/docs/casqueConn.pdf" target="_blank" class="project-link">Doc</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/img/dawiiConnect.png" alt="Sleek Portfolio" />
+                        </div>
+                        <div class="project-content">
+                            <h3>Dawii Connect</h3>
+                            <p>
+                                🔥 création d’un site web pour la licence DAW2I, permettant aux étudiants, enseignants, entreprises et administrateurs de gérer notes, 
+                                    emploi du temps, offres d’alternance et supports de cours. Développé en HTML, CSS, JavaScript, PHP et MySQL, 
+                                    il propose une interface claire, responsive et sécurisée, adaptée aux besoins de la formation.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="/docs/daw2iConnect.pdf" target="_blank" class="project-link">Doc</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/img/myTuberculose.png" alt="Olova" />
+                        </div>
+                        <div class="project-content">
+                            <h3>MyTuberculose</h3>
+                            <p>
+                               💊 MyTuberculose est une application mobile pour le CLAT 91 qui aide les patients tuberculeux à suivre leur traitement. 
+                                Fonctionnant hors ligne, elle offre des rappels de prise, un suivi visuel, des infos éducatives et un score de régularité. 
+                                Simple, multilingue et respectueuse de la vie privée, elle est accessible aux personnes peu familières avec le numérique
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">SQLlite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="/docs/myTuberculose.pdf" target="_blank" class="project-link">Doc</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Pedro. Tous droits réservés.</p>
+                <div class="footer-links">
+                <a href="https://github.com/PedroGomesFR" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/pedro-gomes-33200821b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
