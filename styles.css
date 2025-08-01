@@ -350,7 +350,10 @@ body::before {
 
 .profile-details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     gap: 0.5rem;
 }
 
@@ -378,6 +381,8 @@ body::before {
 
 .social-links-main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -948,6 +953,10 @@ body::before {
 
 .footer-links a:hover {
     color: var(--text-primary);
+}
+
+.paddingAdd{
+    padding: 20px;
 }
 
 /* Responsive Design */
